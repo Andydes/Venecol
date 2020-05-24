@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 100px;
+  width: auto;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -638,7 +638,7 @@ section {
 }
 
 .services .icon-box-blue .icon i {
-  color: #2282ff;
+  color: rgb(68, 118, 151);
 }
 
 /*--------------------------------------------------------------
@@ -856,7 +856,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #4ae3c6;
+  color: rgb(68, 118, 151);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1083,7 +1083,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #43857a;
+  color: rgb(68, 118, 151);
 }
 
 .contact .info .email p {
@@ -1150,7 +1150,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: rgb(68, 118, 151);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1170,7 +1170,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid rgb(68, 118, 151);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1200,7 +1200,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #22d8b6;
+  background: rgb(68, 118, 151);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1354,7 +1354,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #14806c;
+  background: rgb(68, 118, 151);
 }
 
 #footer .copyright {
