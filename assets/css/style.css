@@ -1376,3 +1376,7 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.elfsight-app-64400073-deb3-4925-bbf0-7c25afa236af div > div > div > :nth-child(5n) {
+  display: none !important;
+}
