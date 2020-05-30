@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #5496C1;
   color: #fff;
 }
- .btn-get-what {
+#hero .btn-get-what {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -405,12 +405,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #5496C1;
  }
 
-
-
 #hero .btn-get-started:hover {
   border-color: rgb(68, 118, 151);
   background: rgb(68, 118, 151);
 }
+#hero .btn-get-what:hover {
+  border-color:  rgb(213, 214, 214);
+  background: rgb(213, 214, 214);
+}
+
 
 @media (min-width: 1024px) {
   #hero {
