@@ -390,6 +390,22 @@ h1, h2, h3, h4, h5, h6 {
   background: #5496C1;
   color: #fff;
 }
+ .btn-get-what {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+  color: #5496C1;
+ }
+
+
 
 #hero .btn-get-started:hover {
   border-color: rgb(68, 118, 151);
