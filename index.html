@@ -598,8 +598,8 @@
   <div class="elfsight-app-64400073-deb3-4925-bbf0-7c25afa236af"></div>
 
   <script>
-    $(window).on('resize', function(){
-      var win = $(this); //this = window
+    function chechScreen() {
+      var win = $(window); //this = window
       if (win.width() <= 787) { 
         $('#hero').css('background-image', 'url(assets/img/nombre5.png)')
         $('#hero').css('background-position', 'center')
@@ -607,7 +607,11 @@
         $('#hero').css('background-image', 'url(assets/img/nombre4.png)')
         $('#hero').css('background-position', 'center')
       }
+    }
+    $(window).on('resize', function(){
+      chechScreen()
     });
+    chechScreen()
   </script>
 
 </body>
