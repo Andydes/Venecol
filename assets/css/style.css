@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("../img/nombre4.png") center center;
+  background: url("../img/nombre4.png") center;
   background-size: cover;
   position: relative;
   margin-top: 72px;
@@ -414,17 +414,10 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(213, 214, 214);
 }
 
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
 @media (max-width: 992px) {
   #hero {
-    margin-top: 60px;
-    height: calc(100vh - 60px);
+    margin-top: 90px;
+    height: 100vh;
   }
 }
 

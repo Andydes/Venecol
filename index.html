@@ -597,6 +597,19 @@
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   <div class="elfsight-app-64400073-deb3-4925-bbf0-7c25afa236af"></div>
 
+  <script>
+    $(window).on('resize', function(){
+      var win = $(this); //this = window
+      if (win.width() <= 767) { 
+        $('#hero').css('background-image', 'url(assets/img/nombre5.png)')
+        $('#hero').css('background-position', 'center')
+      } else {
+        $('#hero').css('background-image', 'url(assets/img/nombre4.png)')
+        $('#hero').css('background-position', 'center')
+      }
+    });
+  </script>
+
 </body>
 
 </html>
